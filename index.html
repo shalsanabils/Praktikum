@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunjungan Ke Pantai Tanjung</title>
+    <link href="bootstrap.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe4e6; /* Light pink background */
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        del {
+            color: #ff6f91; /* Pink color for deleted text */
+        }
+
+        h1, h2 {
+            color: #c2185b; /* Darker pink for headings */
+        }
+
+        img {
+            border-radius: 5px;
+        }
+
+        table {
+            margin-top: 20px;
+            width: 100%;
+            text-align: left;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        th {
+            background-color: #c2185b; /* Darker pink for table headers */
+            color: white;
+        }
+
+        tbody tr {
+            background-color: #ffe4e6; /* Light pink for all rows */
+        }
+
+        ul {
+            margin-top: 15px;
+        }
+
+        /* Custom button styles */
+        .btn-custom {
+            background-color: #c2185b; /* Darker pink for button */
+            color: white;
+            border: none;
+        }
+
+        .btn-custom:hover {
+            background-color: #d81b60; /* Slightly darker pink for hover */
+        }
+    </style>
+</head>
+<body class="container my-5">
+
+    <!-- Basic Info Section -->
+    <div class="card mb-4" style="background-color: #ffe4e6;">
+        <div class="card-body">
+            <p>Nama: <b>Shalsa Nabila S.</b> <br>
+                NIM: <b>230209502097</b> <br>
+                Kelas: <b>PTIK H</b> <br>
+                <del>Alamat: Jl. Veteran No.63 Cendana</del><br>
+                Alamat: <b>Jl. Dg Tata 1</b><br>
+            </p>
+            <p>Sekolah asal: SMAN <sup>1</sup> Enrekang</p>
+            <p><u>Universitas Negeri Makassar</u></p>
+            <p class="text-primary" style="color: #fa6ca5;"><b><i>Success is earned, not given</i></b></p>
+        </div>
+    </div>
+
+    <!-- Judul Pengalaman -->
+    <h1 class="text-center mb-4">Kunjungan Ke Pantai Tanjung</h1>
+
+    <!-- Pengalaman Mengikuti Perkuliahan -->
+    <div class="card mb-4" style="background-color: #ffe4e6;">
+        <div class="card-body">
+            <p>Pada akhir semester 1 lalu, kami dari kelas PTIK H memprogram matakuliah Pendidikan Kewarga Negaraan, 
+                dalam matakuliah tersebut terdapat suatu kegiatan kunjungan yang dianjurkan oleh Dosen pengampuh matakuliah, 
+                kami melakukan kunjungan ke suatu pantai yang berada di Tanjung dalam rangka memenuhi salah satu tugas dari 
+                matkul tersebut. Kunjungan tersebut tidak hanya di lakukan oleh kelas kami melaikan beberapa kelas lainnya yang
+                memprogram matkul tersebut dengan Dosen yang sama.</p>
+            <p>Kegiatan yang kami lakukan sangat banyak tentunya dengan tujuan utama untuk mempererat tali silaturahmi antara 
+                mahasiswa sebagai warga negara. Kegiatan yang dilakukan adalah perlombaan antar kelas, salah satunya lomba puisi,
+                lomba tarik tambang, lomba menyanyi dan banyak kegiatan lainnya. Banyak hal yang di pelajari dari kegiatan tersebut
+                kita diajarkan untuk saling menghormati sesama mahasiswa maupun dengan Dosen, menghargai pendapat orang lain ketika
+                memberi suatu pendapat dan pentingnya untuk mempererat tali silaturahmi.</p>
+        </div>
+    </div>
+
+    <!-- Daftar Mata Kuliah yang Dipelajari -->
+    <h2 class="mb-3">Daftar Mata Kuliah yang Telah Dipelajari:</h2>
+    <ol class="list-group mb-4">
+        <li class="list-group-item" style="background-color: #ffb6c1;">Pemrograman Web</li>
+        <li class="list-group-item" style="background-color: #ffb6c1;">Jaringan Komputer</li>
+        <li class="list-group-item" style="background-color: #ffb6c1;">Profesi Kependidikan</li>
+    </ol>
+
+    <!-- Daftar Dosen dengan List Tidak Terurut -->
+    <h2 class="mb-3">Daftar Dosen:</h2>
+    <ul class="list-group list-group-flush mb-4">
+        <li class="list-group-item" style="background-color: #ffb6c1;">Aliyah NFH, S.Pd.,M.Pd</LI>
+        <li class="list-group-item" style="background-color: #ffb6c1;">Dr. Muliadi, S.Pd.,M.T</li>
+        <li class="list-group-item" style="background-color: #ffb6c1;">Prof. Dr. Purnamawati, M.Pd</li>
+    </ul>
+
+    <!-- Foto Kegiatan -->
+    <div class="mb-4">
+        <h2>Foto Kegiatan:</h2>
+    </div>
+
+    <!-- Gambar dengan fungsi alert pada klik -->
+    <h2 class="my-4">Gambar Kunjungan</h2>
+    <img src="gambar1.jpg" alt="Gambar Kunjungan" class="img-fluid" style="cursor: pointer;" onclick="showAlert()">
+
+    <!-- JavaScript untuk alert saat gambar di-klik -->
+
+    <!-- Tabel Teman Dekat -->
+    <h2>Daftar Teman Dekat</h2>
+    <div class="table-responsive mb-5">
+        <table class="table table-bordered">
+            <thead style="background-color: #ff69a5;">
+                <tr>
+                    <th rowspan="2">No</th>
+                    <th colspan="2">Nama</th>
+                    <th rowspan="2">Jenis Kelamin</th>
+                    <th rowspan="2">Alamat</th>
+                    <th rowspan="2">Asal Sekolah</th>
+                </tr>
+                <tr>
+                    <th>Lengkap</th>
+                    <th>Panggilan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ilien Fitri</td>
+                    <td>Ilen</td>
+                    <td>P</td>
+                    <td>JL. Veteran Cendana</td>
+                    <td>SMAN 1 ENREKANG</td>
+                </tr>
+                
+                        <tr>
+                            <td>2</td>
+                            <td>Siti Rahma</td>
+                            <td>Rahma</td>
+                            <td>P</td>
+                            <td>Jl. Cendana</td>
+                            <td>SMAN 1 ENREKANG</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Rizky Aulia</td>
+                            <td>Aul</td>
+                            <td>P</td>
+                            <td>Jl. Btp</td>
+                            <td>MAN 1 POLMAN</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Reski Amalia</td>
+                            <td>Ekki</td>
+                            <td>P</td>
+                            <td>Jl. Veteran Cendana</td>
+                            <td>SMAN 1 ENREKANG</td>
+                        </tr>
+                    </table>
+    </div>
+
+    <script src="bootstrap.js"></script>
+    <script src="bootstrap.bundle.js"></script>
+</body>
+</html>
